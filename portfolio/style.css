@@ -1,0 +1,38 @@
+/* Custom Navbar Styling */
+.hero {
+    background: #343a40;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about,
+.projects,
+.contact {
+    padding: 60px 0;
+}
+
+.project-card {
+    margin-bottom: 30px;
+}
+
+footer {
+    background: #212529;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+    /* Bootstrap warning color */
+}
